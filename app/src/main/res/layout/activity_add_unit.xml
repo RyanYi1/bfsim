@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="com.wordpress.chalkboardco.bravefrontiersummonsimulator.AddUnitActivity">
+
+    <!--Rarity Group -->
+    <TextView
+        android:id="@+id/RarityTitleLabel"
+        style="@style/AddUnitTitleTheme"
+        android:text="@string/rarity">
+    </TextView>
+    <com.wordpress.chalkboardco.bravefrontiersummonsimulator.ToggleButtonGroupTableLayout
+        android:id="@+id/RarityGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RarityTitleLabel">
+        <TableRow>
+            <RadioButton
+                android:id="@+id/TwoStarButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/rarity_two" />
+
+            <RadioButton
+                android:id="@+id/ThreeStarButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/rarity_three" />
+
+            <RadioButton
+                android:id="@+id/FourStarButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/rarity_four" />
+            <RadioButton
+            android:id="@+id/FiveStarButton"
+            style="@style/AddUnitButtonTheme"
+            android:text="@string/rarity_five" />
+
+            <RadioButton
+                android:id="@+id/SixStarButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/rarity_six" />
+        </TableRow>
+        <TableRow>
+            <RadioButton
+                android:id="@+id/SevenStarButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/rarity_seven"
+                android:layout_below="@id/RarityGroup"/>
+        </TableRow>
+    </com.wordpress.chalkboardco.bravefrontiersummonsimulator.ToggleButtonGroupTableLayout>
+
+    <!--Element Group -->
+    <TextView
+        android:id="@+id/ElementTitleLabel"
+        style="@style/AddUnitTitleTheme"
+        android:text="@string/element"
+        android:layout_below="@id/RarityGroup">
+    </TextView>
+    <com.wordpress.chalkboardco.bravefrontiersummonsimulator.ToggleButtonGroupTableLayout
+        android:id="@+id/ElementGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ElementTitleLabel">
+        <TableRow>
+            <RadioButton
+                android:id="@+id/FireButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/element_fire"/>
+            <RadioButton
+                android:id="@+id/WaterButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/element_water"/>
+            <RadioButton
+               android:id="@+id/ThunderButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/element_thunder"/>
+            <RadioButton
+                android:id="@+id/EarthButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/element_earth"/>
+            <RadioButton
+                android:id="@+id/LightButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/element_light"/>
+        </TableRow>
+        <TableRow>
+            <RadioButton
+                android:id="@+id/DarkButton"
+                style="@style/AddUnitButtonTheme"
+                android:text="@string/element_dark"
+                android:layout_below="@id/ElementGroup"/>
+        </TableRow>
+    </com.wordpress.chalkboardco.bravefrontiersummonsimulator.ToggleButtonGroupTableLayout>
+    <!--Name Group-->
+    <TextView
+        android:id="@+id/NameTitleLabel"
+        style="@style/AddUnitTitleTheme"
+        android:text="@string/unit_name"
+        android:layout_below="@id/ElementGroup" />
+
+    <EditText
+     android:id="@+id/NameEditText"
+     style="@style/EditTextTheme"
+     android:hint="@string/edit_name"
+     android:layout_below="@id/NameTitleLabel"   />
+
+    <!--Image File Path Group-->
+    <TextView
+        android:id="@+id/ImageNameTitleLabel"
+        style="@style/AddUnitTitleTheme"
+        android:text="@string/unit_image"
+        android:layout_below="@id/NameEditText" />
+
+    <Button
+        android:id="@+id/ImagePathButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/image_find_button"
+        android:layout_below="@id/ImageNameTitleLabel"   />
+
+    <TextView
+        android:id="@+id/ImagePathDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/image_path"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/ImagePathButton"
+        android:layout_toRightOf="@+id/ImagePathButton"
+        android:layout_toEndOf="@+id/ImagePathButton" />
+
+    <!--Unit Quote Group-->
+    <TextView
+        android:id="@+id/QuoteTitleLabel"
+        style="@style/AddUnitTitleTheme"
+        android:text="@string/quote"
+        android:layout_below="@id/ImagePathButton" />
+
+    <EditText
+        android:id="@+id/QuoteEditText"
+        style="@style/EditTextTheme"
+        android:hint="@string/quote_edittext"
+        android:layout_below="@id/QuoteTitleLabel" />
+
+    <!--Submit Clear and Cancel Buttons-->
+    <Button
+        android:id="@+id/CancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <!-- About will not be in overflow area -->
+    <item android:id="@+id/about"
+          android:icon="@drawable/ic_info_black_24dp"
+          android:title="About"
+          app:showAsAction="ifRoom" />
+
+    <!-- Add unit Info will not be in overflow area -->
+    <item android:id="@+id/addunit"
+          android:icon="@drawable/ic_add_black_24dp"
+          android:title="Add Unit"
+          app:showAsAction="ifRoom" />
+</menu>

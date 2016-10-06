@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Summon Simulator</string>
+
+    <!--MainActivity Strings-->
+    <string name="summon_button_text">Summon</string>
+
+    <!--SummonActivity Strings-->
+    <string name="title_activity_summon">SummonActivity</string>
+    <string name="gate_button_text">Gate Image</string>
+    <string name="last_summon_text">Did not summon yet</string>
+
+    <!--UnitShowActivity Strings-->
+    <string name="title_activity_unit_show">UnitShowActivity</string>
+
+
+    <!--AboutInfoActivity Strings-->
+    <string name="title_activity_about_info">About</string>
+
+    <string name="about">Brave Frontier summon simulator created to let you summon for fun
+                         without wasting a thing.\n\nAll pictures and names used are property of
+                         Alim and Gumi.\n\nSpecial Thanks to:\nGeorge Pallete\nJisu Kang\nFor
+                         helping out with the code for the app, and giving ideas!\n</string>
+
+    <!-- AddUnitActivity Strings-->
+    <string name="title_activity_add_unit">AddUnitActivity</string>
+
+    <!-- Unit Info Fields -->
+    <string name="rarity">Rarity</string>
+    <string name="element">Element</string>
+    <string name="unit_name">Unit Name</string>
+    <string name="unit_image">Unit Image</string>
+    <string name="quote">Unit Quote</string>
+    <string name="return_button">Summon Again</string>
+
+    <!--Rarity Fields -->
+    <string name="rarity_two">2 star</string>
+    <string name="rarity_three">3 star</string>
+    <string name="rarity_four">4 star</string>
+    <string name="rarity_five">5 star</string>
+    <string name="rarity_six">6 star</string>
+    <string name="rarity_seven">7 star</string>
+
+    <!--Element Fields -->
+    <string name="element_fire">Fire</string>
+    <string name="element_water">Water</string>
+    <string name="element_thunder">Thunder</string>
+    <string name="element_earth">Earth</string>
+    <string name="element_dark">Dark</string>
+    <string name="element_light">Light</string>
+
+    <!--Name Fields -->
+    <string name="edit_name">Name</string>
+    <string name="image_find_button">Find Image</string>
+    <string name="submit_button">Submit</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="image_path">Image Path</string>
+    <string name="quote_edittext">Quote</string>
+
+
+</resources>
