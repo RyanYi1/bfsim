@@ -5,9 +5,13 @@ I will take down this project.
 Side Project that simulates summoning for a unit in Brave Frontier. Currently the application is outdated.
 
 Right now it has:
+
 -Can summon about 4 units
+
 -Add custom units with custom images
 
 Needs:
+
 -More Units
+
 -Omni Rank
