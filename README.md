@@ -2,7 +2,7 @@
 NOTE: This project is was made for fun. I do not own any of the images presented in this app. If requested by the owners of Brave Frontier, 
 I will take down this project.
 
-[Gate Image](images/Gate_Screen.png)
+![Gate Image](images/oie_692925BnScjFFD.png)
 
 Side Project that simulates summoning for a unit in Brave Frontier. Currently the application is outdated.
 
